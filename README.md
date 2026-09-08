@@ -1,3 +1,11 @@
+# Modelos de Programación 1
+
+Este proyecto de Modelos de Programación 1 fue realizado por: Jhomar Armando Bojaca Landinez
+
+- Código: 20211020130
+- Curso: 020-86
+- Universidad Distrital Francisco José de Caldas
+
 ## Getting Started
 
 Welcome to the VS Code Java world. Here is a guideline to help you get started to write Java code in Visual Studio Code.
