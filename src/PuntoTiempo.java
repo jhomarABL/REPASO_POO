@@ -1,0 +1,31 @@
+public class PuntoTiempo extends Punto {
+    private int t;
+    
+
+    public void setT(int t) {
+        this.t = t;
+    }
+
+    public int getT() {
+        return this.t;
+    }
+    
+    public double velocidad(){
+        return this.modulo() / this.getT();
+    };
+
+    public PuntoTiempo(int t) {
+    this(t, t, t); 
+}
+
+    public PuntoTiempo(int x,int y,int t) {
+        super(x,y);
+        this.setT(t);
+    }
+
+    public PuntoTiempo() {
+        this(0,0,0);
+    }
+    
+    
+}
